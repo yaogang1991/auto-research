@@ -3,8 +3,8 @@
 基于 karpathy/autoresearch 方法论，用 AI 自动迭代优化文生图 prompt。
 
 ## 分支策略
-- `puff-mascot` — 主题主分支（存放最佳状态）
-- `puff-mascot/<date>-v<n>` — 实验分支
+- `topic/puff-mascot` — 主题主分支（存放最佳状态）
+- `exp/puff-mascot-apr21-v1` — 实验分支
 - 实验成功 → merge 回主分支
 
 ## 文件结构
