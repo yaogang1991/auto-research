@@ -1,22 +1,28 @@
-[
-  {
-    "temp": 0.1,
-    "scores": {
-      "composition": 72,
-      "color": 65,
-      "texture": 68,
-      "detail": 70
+{
+  "model": "qwen3.5-27b",
+  "round": 2,
+  "previous_model": "qwen3.5-26b-claude-4.6-opus-reasoning-distilled",
+  "previous_score": 71.2,
+  "r1_baseline": 51,
+  "results": [
+    {
+      "temp": 0.1,
+      "scores": {"composition": 62, "color": 58, "texture": 55, "detail": 50},
+      "total_score": 56.25
     },
-    "total": 68.75
-  },
-  {
-    "temp": 0.5,
-    "scores": {
-      "composition": 72,
-      "color": 75,
-      "texture": 68,
-      "detail": 70
+    {
+      "temp": 0.5,
+      "scores": {"composition": 72, "color": 75, "texture": 55, "detail": 60},
+      "total_score": 65.5
     },
-    "total": 71.25
-  }
-]
+    {
+      "temp": 0.8,
+      "scores": {"composition": 65, "color": 72, "texture": 50, "detail": 45},
+      "total_score": 58.0
+    }
+  ],
+  "median_total": 58.0,
+  "median_scores": {"composition": 65, "color": 72, "texture": 55, "detail": 50},
+  "decision": "KEEP",
+  "reason": "Median 58.0 > R1 baseline 51, all 3 evaluations completed successfully"
+}

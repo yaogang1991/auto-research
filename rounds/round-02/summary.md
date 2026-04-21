@@ -1,40 +1,46 @@
-# Round 2 总结 — 赛博朋克机械龙
+# Round 2 总结 — 赛博朋克机械龙（重新评判）
+
+## ⚠️ 重新评判说明
+
+Round 2 初始评判使用了错误模型 `qwen3.5-26b-claude-4.6-opus-reasoning-distilled`，得分 71.2 不可靠。
+本版使用正确模型 `qwen3.5-27b` 重新评判。
 
 ## 分数
 
-| 维度 | R1 | R2 | 变化 |
+| 维度 | R1 | R2（重新评判） | 变化 |
 |------|----|----|------|
-| 构图 (composition) | 62 | 72 | +10 |
-| 色彩 (color) | 52 | 75 | +23 |
-| 质感 (texture) | 42 | 68 | +26 |
-| 细节 (detail) | 48 | 70 | +22 |
-| **综合 (overall)** | **51** | **71.2** | **+20.2** |
+| 构图 (composition) | 62 | 65 | +3 |
+| 色彩 (color) | 52 | 72 | +20 |
+| 质感 (texture) | 42 | 55 | +13 |
+| 细节 (detail) | 48 | 50 | +2 |
+| **综合 (overall)** | **51** | **58.0** | **+7.0** |
 
 ### 三次评判投票
 
 | 温度 | 综合分 | 构图/色彩/质感/细节 |
 |------|--------|---------------------|
-| 0.1 | 68.8 | 72/65/68/70 |
-| 0.5 | 71.2 | 72/75/68/70 |
-| 0.8 | — | (解析失败) |
-| **中位数** | **71.2** | **72/75/68/70** |
+| 0.1 | 56.25 | 62/58/55/50 |
+| 0.5 | 65.50 | 72/75/55/60 |
+| 0.8 | 58.00 | 65/72/50/45 |
+| **中位数** | **58.0** | **65/72/55/50** |
 
-## 改进措施
+## 评判模型
 
-本轮针对 Round 1 最弱维度进行了以下 prompt 改进：
-
-1. **质感**: "polished metal plating" → "heavily weathered brushed steel with oil stains and battle scars, rust patches, exposed hydraulic actuators, scratched chrome with patina"
-2. **色彩**: "neon cyan, magenta, electric blue" → "desaturated muted neon palette, warm amber streetlights, cool steel blue fog, burnt orange accents"
-3. **构图**: "dragon centered" → "low angle aerial perspective, dragon off-center dominating upper third, massive shadow cast on wet streets"
-4. **细节**: 增加 "readable architecture, visible building details, functional wiring harness, physically based rendering"
-5. **风格**: 新增 "photorealistic rendering" 和 "lived-in sci-fi realism"
+- **正确模型**: qwen3.5-27b (lmstudio-community)
+- **错误模型**: qwen3.5-26b-claude-4.6-opus-reasoning-distilled (已废弃)
 
 ## 结果判定
 
-**KEEP** — 综合分从 51 提升到 71.2，所有维度均有显著提升。质感提升最大(+26)，色彩次之(+23)。
+**KEEP** — 综合分从 51 提升到 58.0，虽然提升幅度不如错误模型评判的 71.2，但仍超过 R1 基线。色彩提升最显著(+20)，质感次之(+13)。
+
+## 主要问题（来自评判反馈）
+
+- 质感仍然是最大短板：金属缺乏真实材质重量，机械结构不连贯
+- 细节不足：龙的身体结构与机械部件之间缺乏功能逻辑
+- 构图略有改善但仍有提升空间
 
 ## 下一轮改进方向
 
-1. **质感继续打磨** (68→目标80+): 进一步强化金属物理属性，加入具体的氧化痕迹和焊接疤痕
-2. **细节深化** (70→目标80+): 龙的机械结构需要更明确的功能逻辑（传动系统、能量管线走向）
-3. **构图微调** (72→目标80+): 尝试更极端的视角或更紧凑的裁剪来增强戏剧性
+1. **质感优先** (55→目标70+): 强化金属物理属性，加入具体的氧化、磨损、焊接痕迹
+2. **细节深化** (50→目标65+): 龙的机械结构需要明确的功能逻辑（传动系统、管线走向）
+3. **构图微调** (65→目标75+): 尝试更极端的视角增强戏剧性
