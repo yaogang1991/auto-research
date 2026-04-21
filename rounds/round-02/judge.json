@@ -23,6 +23,7 @@
   ],
   "median_total": 58.0,
   "median_scores": {"composition": 65, "color": 72, "texture": 55, "detail": 50},
+  "avg_from_median_dims": 60.5,
   "decision": "KEEP",
-  "reason": "Median 58.0 > R1 baseline 51, all 3 evaluations completed successfully"
+  "reason": "Total median 58.0 > R1 baseline 51. Note: avg of per-dim medians = 60.5 (65+72+55+50)/4, discrepancy due to median taken on different axes. Using conservative total median 58.0."
 }
