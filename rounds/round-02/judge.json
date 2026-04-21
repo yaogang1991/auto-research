@@ -1,0 +1,22 @@
+[
+  {
+    "temp": 0.1,
+    "scores": {
+      "composition": 72,
+      "color": 65,
+      "texture": 68,
+      "detail": 70
+    },
+    "total": 68.75
+  },
+  {
+    "temp": 0.5,
+    "scores": {
+      "composition": 72,
+      "color": 75,
+      "texture": 68,
+      "detail": 70
+    },
+    "total": 71.25
+  }
+]
