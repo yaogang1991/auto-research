@@ -1,45 +1,6 @@
 {
-  "scores": {
-    "composition": 62,
-    "color": 52,
-    "texture": 42,
-    "detail": 48,
-    "overall": 51
-  },
-  "critique": "This image is a quintessential example of 'AI Default Cyberpunk.' While visually striking at first glance, it fails under professional scrutiny. The composition is competent but relies on a generic central framing that lacks dynamic tension; the dragon feels pasted onto the background rather than interacting with the environment (note the lack of shadow casting from the dragon onto the street below). The color palette is aggressively garish—drowning in oversaturated cyan and magenta without any atmospheric depth or realistic light falloff. It looks like a screensaver, not a scene. Texture-wise, it fails completely; the 'metal' has the sheen of polished plastic or toy chrome rather than weathered industrial steel. There is no grime, oil, or wear, which kills the cyberpunk aesthetic. Finally, the detail is superficial. The dragon's mechanics are decorative noise—gears and plates placed where they serve no structural purpose—and the background city is a blur of unreadable gibberish billboards and indistinct architecture.",
-  "votes": [
-    {
-      "temp": 0.1,
-      "overall": 51,
-      "scores": {
-        "composition": 62,
-        "color": 52,
-        "texture": 42,
-        "detail": 48,
-        "overall": 51
-      }
-    },
-    {
-      "temp": 0.5,
-      "overall": 45,
-      "scores": {
-        "composition": 55,
-        "color": 50,
-        "texture": 35,
-        "detail": 40,
-        "overall": 45
-      }
-    },
-    {
-      "temp": 0.8,
-      "overall": 55,
-      "scores": {
-        "composition": 62,
-        "color": 58,
-        "texture": 48,
-        "detail": 52,
-        "overall": 55
-      }
-    }
-  ]
+  "scores": {},
+  "issues": [],
+  "suggestions": {},
+  "votes": []
 }
