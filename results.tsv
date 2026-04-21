@@ -1,3 +1,3 @@
 commit	score	score_avg	round	status	description
 baseline	51	62/52/42/48	baseline	Round 1 baseline image
-round-02	71.2	KEEP	prompt_v2_weathered_metal_desaturated_neon_low_angle
+round-02	60.5	65/72/55/50	round-02	KEEP	prompt_v2_weathered_metal_desaturated_neon_low_angle
