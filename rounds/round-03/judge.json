@@ -1,45 +1,25 @@
 {
-  "results": [
+  "scores": {
+    "composition": 65,
+    "color": 68,
+    "texture": 48,
+    "detail": 55,
+    "overall": 59.0
+  },
+  "issues": "This image captures the aesthetic 'vibe' of cyberpunk but fails as a piece of coherent concept art. The composition is crowded; while the dragon is imposing, the background feels like a flat, generic backdrop rather than a deep, navigable 3D space. The color palette relies heavily on cliché teal/orange contrasts that are visually striking but lack subtlety or logical light falloff. The most critical failure is in texture: the metallic surfaces have a distinct 'waxy' or plastic sheen common to AI generation, lacking the grit, scratches, and varied reflectivity of real industrial machinery. Furthermore, the mechanical details on the dragon are purely decorative; the joints and wing structures make no functional sense, appearing melted together rather than engineered. It is a pretty image, but it lacks the physical truth required for high-end concept art.",
+  "suggestions": {},
+  "votes": [
     {
       "temp": 0.1,
-      "scores": {
-        "composition": 58,
-        "color": 62,
-        "texture": 48,
-        "detail": 38
-      },
-      "total": 51.5,
-      "critique": "This image falls squarely into the 'competent AI generation' trap but fails as professional concept art. While the composition is dynamic and the color palette captures a moody cyberpunk atmosphere (teal/orange contrast), it lacks sophistication. The textures are the primary failure point; the metal surfaces have an unnatural, waxy sheen typical of Midjourney, lacking the grit, scratches, and weathering of real machinery. Most critically, the 'Detail' score is low because the mechanical design is nonsensical. It relies on 'greebling'—randomly attaching pipes, gears, and spikes without functional logic. The shoulder joints don't articulate properly, and the background is a wall of indistinct digital noise rather than a readable cityscape. It looks like a collage of cyberpunk tropes rather than a coherent design."
+      "overall": 53
     },
     {
       "temp": 0.5,
-      "scores": {
-        "composition": 58,
-        "color": 52,
-        "texture": 35,
-        "detail": 42
-      },
-      "total": 46.75,
-      "critique": "This image fails to meet professional standards primarily due to a lack of material truth and logical design. While the composition is dynamic with a strong central subject, it feels cramped at the edges where the wings are cut off. The color palette relies too heavily on a generic 'cyberpunk blue' wash; it lacks the vibrant, high-contrast neon pops requested in the prompt, resulting in a muddy, monochromatic atmosphere rather than a sophisticated lighting setup. Texture is the weakest link: the dragon's body is a confusing mix of materials that don't interact with light realistically—some parts look like polished chrome, others like wet rock or plastic, lacking the cohesive grit of real machinery. Finally, detail suffers from AI hallucination; the mechanical joints on the wings and legs are nonsensical (gears floating in voids), and the background city is an unreadable blur of architectural noise rather than a coherent futuristic environment."
+      "overall": 65
     },
     {
       "temp": 0.8,
-      "scores": {
-        "composition": 64,
-        "color": 61,
-        "texture": 54,
-        "detail": 49
-      },
-      "total": 57.0,
-      "critique": "While visually striking at a glance, this image collapses under professional scrutiny. The composition utilizes a dramatic low angle effectively, but the subject is slightly too close to the frame edges, cutting off parts of the wings awkwardly. The color palette relies heavily on the cliché 'blue fog' cyberpunk aesthetic; while atmospheric, it lacks dynamic contrast and feels muddy in the shadows rather than punchy. Texture work is inconsistent: the rusted plating on the chest shows promise, but the wing membranes look like smooth, synthetic plastic sheets rather than organic or high-tech material, lacking tactile realism. The detail score suffers significantly due to 'AI hallucination'—the mechanical joints on the neck and shoulders are a jumbled mess of pistons that defy physics, serving no structural purpose. Furthermore, the cityscape is merely a backdrop of glowing noise; the architecture dissolves into unreadable gibberish, failing to provide a coherent setting for the creature."
+      "overall": 59
     }
-  ],
-  "medians": {
-    "composition": 58,
-    "color": 61,
-    "texture": 48,
-    "detail": 42
-  },
-  "dimension_avg": 52.25,
-  "total_median": 51.5
+  ]
 }
